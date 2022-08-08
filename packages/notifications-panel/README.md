@@ -1,42 +1,39 @@
-# Notifications Flyout
+# Notifications Panel
 
-The notifications flyout provides information and warnings that products may recover from without user involvement. It is meant to be included in the navigation bar on the top of the page.
-
-Read more about when and how to use the Notifications Flyout [on the internal wiki](https://wiki.autodesk.com/display/HIG/Notifications+Flyout).
+The notifications panel provides information and warnings that products may recover from without user involvement. It is meant to be displayed in a flyout as a list of notifications. 
 
 ## Getting started
 
 ```bash
-yarn add @hig/notifications-flyout @hig/theme-context @hig/theme-data
+yarn add @hig/notifications-panel @hig/theme-context @hig/theme-data
 ```
 
 ## Import the component
 
 ```js
-import NotificationsFlyout, { Notification } from "@hig/notifications-flyout";
+import NotificationsPanel, { Notification } from "@hig/notifications-panel";
 ```
 
 ## Basic usage
 
 ```jsx
-<NotificationsFlyout>
+<NotificationsPanel>
   <Notification>
     <p>Your subscription expires May 5</p>
   </Notification>
-</NotificationsFlyout>
+</NotificationsPanel>
 ```
 
 ## Advanced usage
 
 ```jsx
-import NotificationsFlyout, { anchorPoints } from "@hig/notifications-flyout";
+import NotificationsPanel, { anchorPoints } from "@hig/notifications-panel";
 import Timestamp from "@hig/timestamp";
 
-<NotificationsFlyout
+<NotificationsPanel
   open
   heading="Alerts"
   indicatorTitle="View application alerts"
-  anchorPoint={anchorPoints.TOP_CENTER}
   notifications={[
     {
       id: "unique-id",
