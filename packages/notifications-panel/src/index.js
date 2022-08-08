@@ -7,4 +7,3 @@ NotificationsPanel.Notification = Notification;
 
 export { NotificationsPanel as default, Image, Notification };
 export { types, AVAILABLE_TYPES } from "./types";
-export { anchorPoints, AVAILABLE_ANCHOR_POINTS } from "@hig/flyout";

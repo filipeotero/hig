@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "@hig/behaviors": "^2.1.0",
-    "@hig/flyout": "^2.2.0",
     "@hig/icon-button": "^3.1.0",
     "@hig/icons": "^4.1.0",
     "@hig/progress-ring": "^2.2.0",
