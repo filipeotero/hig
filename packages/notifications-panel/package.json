@@ -1,6 +1,6 @@
 {
-  "name": "@hig/notifications-panel",
-  "version": "0.0.1",
+  "name": "@dynamods/notifications-panel",
+  "version": "0.0.3",
   "description": "HIG NotificationsPanel",
   "author": "Autodesk Inc.",
   "license": "Apache-2.0",

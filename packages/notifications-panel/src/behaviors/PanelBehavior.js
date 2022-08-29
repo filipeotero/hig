@@ -4,7 +4,7 @@ import Transition from "react-transition-group/Transition";
 import { transitionStatuses, AVAILABLE_TRANSITION_STATUSES } from "@hig/flyout";
 
 /** 50px per the design spec plus 30px for the height of the title */
-const BOTTOM_SPACING = 80;
+const BOTTOM_SPACING = 56;
 const TRANSITION_DURATION = 300;
 
 /**
